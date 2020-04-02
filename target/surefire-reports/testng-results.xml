@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="26" started-at="2020-03-30T23:57:33Z" finished-at="2020-03-30T23:57:33Z">
+  <suite name="Command line suite" duration-ms="34" started-at="2020-04-02T02:08:29Z" finished-at="2020-04-02T02:08:29Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="26" started-at="2020-03-30T23:57:33Z" finished-at="2020-03-30T23:57:33Z">
-      <class name="com.TestPackage.TestDemo">
-        <test-method status="PASS" signature="div()[pri:0, instance:com.TestPackage.TestDemo@17c68925]" name="div" duration-ms="5" started-at="2020-03-30T23:57:33Z" finished-at="2020-03-30T23:57:33Z">
+    <test name="Command line test" duration-ms="34" started-at="2020-04-02T02:08:29Z" finished-at="2020-04-02T02:08:29Z">
+      <class name="com.TestPackage.TestDemoOne">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.TestPackage.TestDemoOne@3d24753a]" name="div" duration-ms="5" started-at="2020-04-02T02:08:29Z" finished-at="2020-04-02T02:08:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div -->
-        <test-method status="PASS" signature="multi()[pri:0, instance:com.TestPackage.TestDemo@17c68925]" name="multi" duration-ms="0" started-at="2020-03-30T23:57:33Z" finished-at="2020-03-30T23:57:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multi -->
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.TestPackage.TestDemo@17c68925]" name="sub" duration-ms="0" started-at="2020-03-30T23:57:33Z" finished-at="2020-03-30T23:57:33Z">
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.TestPackage.TestDemoOne@3d24753a]" name="sub" duration-ms="0" started-at="2020-04-02T02:08:29Z" finished-at="2020-04-02T02:08:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.TestPackage.TestDemo@17c68925]" name="sum" duration-ms="0" started-at="2020-03-30T23:57:33Z" finished-at="2020-03-30T23:57:33Z">
+        <test-method status="PASS" signature="multi()[pri:0, instance:com.TestPackage.TestDemoOne@3d24753a]" name="multi" duration-ms="0" started-at="2020-04-02T02:08:29Z" finished-at="2020-04-02T02:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.TestPackage.TestDemoOne@3d24753a]" name="sum" duration-ms="0" started-at="2020-04-02T02:08:29Z" finished-at="2020-04-02T02:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.TestPackage.TestDemoOne -->
+      <class name="com.TestPackage.TestDemo">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.TestPackage.TestDemo@59a6e353]" name="div" duration-ms="0" started-at="2020-04-02T02:08:29Z" finished-at="2020-04-02T02:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="multi()[pri:0, instance:com.TestPackage.TestDemo@59a6e353]" name="multi" duration-ms="0" started-at="2020-04-02T02:08:29Z" finished-at="2020-04-02T02:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multi -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.TestPackage.TestDemo@59a6e353]" name="sub" duration-ms="0" started-at="2020-04-02T02:08:29Z" finished-at="2020-04-02T02:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.TestPackage.TestDemo@59a6e353]" name="sum" duration-ms="0" started-at="2020-04-02T02:08:29Z" finished-at="2020-04-02T02:08:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
